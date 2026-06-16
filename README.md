@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Emotion Detection Flask App
 
 A Flask web application for detecting emotions from input text or images. This project includes a backend service, an emotion detection module, a web interface, and supporting static assets for client-side interaction.
@@ -42,6 +41,3 @@ python server.py
 
 - Update dependencies as needed for your environment.
 - Add a requirements file if you want reproducible installation steps.
-=======
-# Flask_APP
->>>>>>> a98f8d2524c66c4f8fdfd601b10180e4b5cee7e9
