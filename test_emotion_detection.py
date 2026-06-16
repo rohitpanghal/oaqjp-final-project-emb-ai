@@ -21,8 +21,10 @@ def test_emotion_detector():
 
     for statement, expected in test_cases.items():
         response = emotion_detector(statement)
+        actual = response["dominant_emotion"]
 
-        assert response["dominant_emotion"] == expected
+        print(f"Testing: '{statement}' -> expected: '{expected}', actual: '{actual}'")
+        assert actual == expected
 
     print("All tests passed!")
 
