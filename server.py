@@ -1,4 +1,4 @@
-
+"""Flask server for Emotion Detector."""
 from flask import Flask, render_template, request
 
 from EmotionDetection import emotion_detector
